@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "App Streamlit para predicción pingüinos"
+authors = ["Miguel Acuña Gaete"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+tensorflow = "2.15.0"
+tensorflow-io-gcs-filesystem = "0.31.0"
+keras = "2.15.0"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+streamlit = ">=1.46.1,<2.0.0"
+joblib = "*"
+seaborn = "*"  
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

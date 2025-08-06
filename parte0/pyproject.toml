@@ -1,24 +1,22 @@
-[project]
+[tool.poetry]
 name = "parte0"
 version = "0.1.0"
 description = "Entrenamiento del modelo de predicción de especies de pingüinos"
 authors = ["Miguel Acuña Gaete"]
 readme = "README.md"
-requires-python = ">=3.10,<3.11"
-dependencies = [
-    "tensorflow==2.15.0",
-    "tensorflow-io-gcs-filesystem==0.31.0",
-    "keras==2.15.0",
-    "pandas",
-    "seaborn",
-    "scikit-learn",
-    "streamlit>=1.46.1,<2.0.0"
-]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+tensorflow = "2.15.0"
+tensorflow-io-gcs-filesystem = "0.31.0"
+keras = "2.15.0"
+pandas = "2.2.2"
+numpy = "1.26.4"
+scikit-learn = "1.4.2"
+joblib = "1.4.2"
+seaborn = "0.13.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
-package-mode = false
-

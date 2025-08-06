@@ -11,12 +11,12 @@ python = ">=3.10,<3.11"
 tensorflow = "2.15.0"
 tensorflow-io-gcs-filesystem = "0.31.0"
 keras = "2.15.0"
-pandas = "*"
-numpy = "*"
-scikit-learn = "*"
-streamlit = ">=1.46.1,<2.0.0"
-joblib = "*"
-seaborn = "*"  
+pandas = "2.2.2"
+numpy = "1.26.4"
+scikit-learn = "1.4.2"
+streamlit = "1.29.0"
+joblib = "1.4.2"
+seaborn = "0.13.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

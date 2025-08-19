@@ -18,6 +18,10 @@ El proyecto fue desarrollado como parte de la **Evaluación Práctica 2** del cu
 
 ---
 
+## 📸 Captura de la aplicación
+
+![Streamlit App](images/streamlit_app.png)
+
 ## ⚙️ Tecnologías utilizadas
 
 - `Python`: lenguaje base del proyecto  
@@ -47,6 +51,4 @@ El proyecto fue desarrollado como parte de la **Evaluación Práctica 2** del cu
 git clone https://github.com/tu_usuario/Evaluacion-pinguinos.git
 cd Evaluacion-pinguinos
 
-## 📸 Captura de la aplicación
 
-![Streamlit App](images/streamlit_app.png)
